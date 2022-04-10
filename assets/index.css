@@ -1,0 +1,92 @@
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding: 0px !important;
+    margin: 0px !important; 
+    padding-right:0px !important;
+    padding-left:0px !important ;
+    overflow-x: hidden;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.row{
+   width: 100%;
+}
+.card-body{
+    background-color: #b1040e;
+    font-size: 25px;
+    color: white;
+}
+.conatiner-section{
+    background-image: url(./images/admission_bg.jpg);
+    height: 600px;
+    width: 100%;
+}
+.admission{
+    background-color:#fff ;
+    height: 400px;
+    width: 200px;
+}
+.add{
+    height:600px ;
+}
+.paddin{
+    padding: 20px;
+  
+}
+.paddin h1{
+    font-weight: 900;
+}
+.hovereffect:hover img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.sectors {
+    padding: 20px;
+    text-align: justify;
+    color: #002147;
+}
+.sectors ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.sectors h5{
+    text-align: center;
+    color: #b1040e;
+}
+.sectors img{
+    height: 80px;
+    margin: 47px;
+}
+.fa, .fas {
+    font-weight: 900;
+    color: #fa7503 !important;
+    cursor: pointer;
+}
+.outline{
+    border-top: 2px solid #fa7503;
+    /* width: 100%; */
+    
+}
+.address{
+    text-align:initial;
+}
+.foot{
+    padding: 20px;
+    display: flex;
+    background-color: #b1040e;
+    font-size: 18px;
+    color: white;
+    justify-content: space-between;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+.logos img{
+    padding: 20px;
+}
+.log img{
+    width: 20rem;
+}
